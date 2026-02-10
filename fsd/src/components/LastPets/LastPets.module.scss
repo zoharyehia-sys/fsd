@@ -1,0 +1,24 @@
+.lastPetsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  margin: 30px 30px;
+  padding-bottom: 100px;
+}
+.separatorLP {
+  background-color: var(--primary-green);
+
+  h1 {
+    margin-bottom: 24px;
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 1px 3px;
+    font-weight: bold;
+    padding: 30px;
+  }
+}
