@@ -315,6 +315,33 @@
     "id": "15218fdb-74d6-4009-843a-5441094b2a6d"
   },
   {
+    "firstName": "נהוראי",
+    "birthYear": 2005,
+    "animalType": "כלב",
+    "gender": "זכר",
+    "description": "נהוראי שלנו כלב מקסים, חובב תיאטרון ואת מגי אזרזר. אוהב לאכול מן הצומח ומעדיף ליטופים בראש הוא אוהב גם את ג. יפית! מאוד",
+    "pictureUrl": "https://tse3.mm.bing.net/th/id/OIP.4l3R8fBvsRufhAQK_MAmVwHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "id": "15218fdb-74d6-6709-673a-5441094b2a6d"
+  },
+  {
+    "firstName": "יוב המגנוב",
+    "birthYear": 2003,
+    "animalType": "כלב",
+    "gender": "זכר",
+    "description": "הולך לכבוש את עזה מיידי הפלשתים, מזיע טסטוסטרון טהור! ואף פעם לא הפסיד בכלום ומנצח בהכל ומלך",
+    "pictureUrl": "https://ladog.co.il/wp-content/uploads/Depositphotos_122775444_m-2015.jpg",
+    "id": "15212fbb-72d6-6709-673a-5441094b2a7d"
+  },
+  {
+    "firstName": "אמיר",
+    "birthYear": 2005,
+    "animalType": "כלב",
+    "gender": "זכר",
+    "description": "אוהב ללטף חתולים ולגדל אותם. הוא אוהב להיות אמיר וגם לאכול אמיר, בעברו נהג לאכול בננה והורשע בפשעי אכילה בהאג",
+    "pictureUrl": "https://tse1.mm.bing.net/th/id/OIP.pNHrlAY7-_M0HL27c0q3rwHaGk?w=489&h=434&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "id": "14212feb-72d6-6709-673a-5441184x2a7d"
+  },
+  {
     "firstName": "שולמית",
     "birthYear": 2014,
     "animalType": "כלב",
