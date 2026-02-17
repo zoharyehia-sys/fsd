@@ -1,0 +1,149 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-pink) 0%, var(--primary-blue) 80%);
+  padding: var(--spacing-lg) 0;
+}
+
+.controls {
+  max-width: 1000px;
+  margin: 0 auto var(--spacing-sm);
+  padding: 0 var(--spacing-sm);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--white);
+  cursor: default;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(1, 1, 1, 0.05);
+  padding: var(--spacing-sm);
+}
+
+.hero {
+  display: flex;
+  background: var(--white);
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  gap: var(--spacing-md);
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.imageContainer {
+  flex: 1 1 50%;
+  height: 380px;
+}
+
+.petImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.titleInfo {
+  flex: 1 1 50%;
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleInfo h1 {
+  font-size: var(--font-size-xxl);
+  color: var(--primary-orange);
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--primary-green);
+  color: var(--white);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.detailsSection {
+  padding: var(--spacing-md);
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--spacing-lg);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.infoCard h3 {
+  color: var(--text-dark);
+  font-size: var(--font-size-lg);
+  margin-bottom: 12px;
+  border-right: 4px solid var(--primary-pink);
+  padding-right: 10px;
+}
+
+.grid {
+  display: block;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.label {
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+.value {
+  color: var(--primary-green);
+  font-weight: 700;
+}
+
+.storyCard h3 {
+  color: var(--primary-blue);
+  font-size: var(--font-size-lg);
+  margin-bottom: 12px;
+}
+
+.storyCard p {
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+.adoptLink {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  background: var(--primary-orange);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 32px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.actionsRow {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.2rem;
+  color: var(--primary-pink);
+}

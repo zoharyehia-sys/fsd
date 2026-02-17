@@ -1,0 +1,31 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+.list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 12px 0;
+}
+
+.item {
+  min-width: 140px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.image {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.name {
+  margin-top: 8px;
+  font-weight: 700;
+}
