@@ -1,0 +1,17 @@
+﻿.container { max-width: 1100px; margin: 0 auto; padding: var(--spacing-sm); }
+.card { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.imageSection { min-height: 280px; }
+.mainImage { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md); }
+.infoSection { display: flex; flex-direction: column; gap: var(--spacing-sm); }
+.name { margin: 0; }
+.metaGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.metaItem { background: var(--bg-light); border-radius: var(--radius-sm); padding: 10px; }
+.label { display: block; color: var(--text-gray); font-size: 12px; }
+.value { font-weight: 600; color: var(--text-dark); }
+.male { color: var(--primary-blue-dark); }
+.female { color: var(--primary-pink-dark); }
+.descriptionSection { background: color-mix(in srgb, var(--bg-light) 85%, var(--white)); border-radius: var(--radius-sm); padding: 10px; }
+.description { margin: 0; }
+.actions { display: flex; gap: 10px; }
+.errorWrap { max-width: 600px; margin: var(--spacing-md) auto; padding: var(--spacing-sm); border: 1px solid color-mix(in srgb, var(--text-gray) 25%, var(--white)); border-radius: var(--radius-md); text-align: center; background: var(--white); }
+.backLink { color: var(--primary-green-dark); text-decoration: none; }

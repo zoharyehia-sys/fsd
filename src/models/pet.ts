@@ -1,4 +1,4 @@
-export interface Pet {
+export type Pet = {
   id: string;
   firstName: string;
   birthYear: number;
@@ -6,4 +6,5 @@ export interface Pet {
   gender: string;
   description: string;
   pictureUrl: string;
-}
+};
+

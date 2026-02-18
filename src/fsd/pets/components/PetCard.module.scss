@@ -1,0 +1,16 @@
+﻿.card { border: 1px solid color-mix(in srgb, var(--text-gray) 25%, var(--white)); border-radius: var(--radius-md); overflow: hidden; background: var(--white); }
+.imageContainer { width: 100%; aspect-ratio: 4/3; overflow: hidden; }
+.image { width: 100%; height: 100%; object-fit: cover; display: block; }
+.content { padding: var(--spacing-sm); }
+.name { margin: 0 0 var(--spacing-xs); }
+.meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 14px; }
+.metaItem { color: color-mix(in srgb, var(--text-dark) 80%, var(--white)); }
+.separator { color: color-mix(in srgb, var(--text-gray) 75%, var(--white)); }
+.gender { font-weight: 600; }
+.male { color: var(--primary-blue-dark); }
+.female { color: var(--primary-pink-dark); }
+.description { color: var(--text-gray); font-size: 14px; }
+.actions { display: flex; gap: var(--spacing-xs); }
+.detailsBtn, .adoptBtn { border: 0; border-radius: var(--radius-sm); padding: var(--spacing-xs) 10px; cursor: pointer; }
+.detailsBtn { background: var(--bg-light); color: var(--text-dark); }
+.adoptBtn { background: var(--primary-green-dark); color: var(--white); }

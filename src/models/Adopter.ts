@@ -1,7 +1,7 @@
 export interface Adopter {
-  fullname: string;
+  fullName: string;
   birthYear: number;
   email: string;
   phone: string;
-  adress: string;
+  address: string;
 }

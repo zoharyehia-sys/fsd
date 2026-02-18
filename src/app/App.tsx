@@ -1,13 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
-import Header from "./components/Header/Header";
-import AppRouter from "./components/Router/Router";
-import "./styles/global.scss";
+import { BrowserRouter } from "react-router";
+import { Providers } from "./providers";
+import { Router } from "./router";
+import { Header } from "../shared/components";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <AppRouter />
-    </BrowserRouter>
+    <Providers>
+      <BrowserRouter>
+        <Header />
+        <Router />
+      </BrowserRouter>
+    </Providers>
   );
 }
+
+
